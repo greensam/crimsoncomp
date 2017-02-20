@@ -1,4 +1,4 @@
- #Assignment 2: Objects and Polymorphism
+ # Assignment 2: Objects and Polymorphism
 
 This week we're going to mess with how to create objects, define classes, and extend those classes. After you write your classes, you'll load and dump some objects to and from a text file, so keep this in mind when naming your attributes. Our code expects them to be named in a certain way.
 
