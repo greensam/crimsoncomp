@@ -1,10 +1,10 @@
- # Assignment 2: Objects and Polymorphism
+# Assignment 2: Objects and Polymorphism
 
 This week we're going to mess with how to create objects, define classes, and extend those classes. After you write your classes, you'll load and dump some objects to and from a text file, so keep this in mind when naming your attributes. Our code expects them to be named in a certain way.
 
-Again, if at any point you have an issue, let Jessica (jessica.zhu@thecrimson.com) or Kyle (kyle.kwong@thecrimson.com) know! Don't bash your head against the wall. We're here to help.
+Again, if at any point you have an issue, let Gabbi (gabbi.merz@thecrimson.com) or Lydia (lydia.goldberg@thecrimson.com) know! Don't bash your head against the wall. We're here to help.
 
-The distribution code you'll need to complete this assignment is in the [comp git repo](https://github.com/harvard-crimson/comp).
+The distribution code you'll need to complete this assignment is in this repo.
 
 ## Get set up
 Doing this assignment will require the use of some third-party libraries. Check out our document at [setting up](https://github.com/harvard-crimson/comp/blob/master/general/setting_up.md) to get yourself ready to download some libraries. If you have any questions about it, definitely shoot one of us an email and we'll help you out :).
