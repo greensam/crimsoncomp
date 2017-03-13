@@ -4,14 +4,23 @@ import csv
 
 def swapchars(s):
 
-    counts = collections.Counter(s.lower())
+    counts = collections.Counter([c.lower() for c in s if c.isalpha()])
 
     most = max(counts, key=counts.get)
     least = min(counts, key=counts.get)
 
-    return s.replace(most, least)
+    def swap(c):
 
-assert swapchars("samuel lewis green") == "samual lawis graan"
+        if c.lower() == most:
+            return least
+        elif c.lower() == least:
+            return most
+        else:
+            return c
+
+    return "".join([swap(c) for c in s])
+
+# assert swapchars("samuel lewis green") == "samual lawis graan"
 print  swapchars('I\'m just a chi-town coder with a nice flow.') # == "U'm jist a chu-town coder wuth a nuce flow."
 
 
